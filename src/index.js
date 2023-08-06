@@ -306,10 +306,10 @@
 
 //============================================================================================================================================//
 
-fetch("https://jsonplaceholder.typicode.com/posts")
-  .then((response) => response.json())
-  .then((data) => console.log(data))
-  .catch((error) => console.log(error.message));
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data))
+//   .catch((error) => console.log(error.message));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -352,3 +352,35 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 // }
 
 // const myApp = new App();
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // Posting data
+
+// // In JavaScript, the POST method is commonly used to send data to a server. It is one of the HTTP methods used in web development to perform operations such as creating, updating, or submitting data to a specific URL or endpoint on the server. The POST method is often used when you want to add or update data on the server. //
+
+//============================================================================================================================================//
+
+// const btn = document.querySelector(".btn");
+
+// btn.addEventListener("click", function (e) {
+//   e.preventDefault();
+
+//   const userId = document.querySelector(".user-id").value;
+//   const title = document.querySelector(".title").value;
+//   const body = document.querySelector(".body").value;
+
+//   const data = { userId: userId, title: title, body: body };
+
+//   fetch("https://jsonplaceholder.typicode.com/posts", {
+//     method: "POST",
+//     headers: {
+//       "Content-type": "application/json",
+//     },
+//     body: JSON.stringify(data),
+//   })
+//     .then((response) => response.json())
+//     .then((data) => console.log(data));
+// });
