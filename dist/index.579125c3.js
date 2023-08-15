@@ -226,5 +226,22 @@
  //     .then((response) => response.json())
  //     .then((data) => console.log(data));
  // });
+ //============================================================================================================================================//
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //============================================================================================================================================//
+ // // Fetching data asynchronously
+ // // Fetching data asynchronously is a common task in web development, and it can be achieved using the fetch API in JavaScript. The fetch API provides a simple way to make network requests and handle asynchronous responses. //
+ //============================================================================================================================================//
+ // async function fetchData() {
+ //   try {
+ //     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+ //     if (!res.ok) throw new Error("Something went wrong!");
+ //     const data = await res.json();
+ //     console.log(data);
+ //   } catch (err) {
+ //     console.log(err.message);
+ //   }
+ // }
+ // fetchData();
 
 //# sourceMappingURL=index.579125c3.js.map
