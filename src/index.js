@@ -14,6 +14,22 @@
 
 // AJAX call -
 
+// Fetch API {
+// Protocol -
+// HTTPS and HTTP -
+// Domene name -
+// DNS (Domain Name System) -
+// IP address -
+// DNS lookup -
+// TCP/IP socket connection -
+// }
+
+// Fetching data -
+
+// Posting data -
+
+// Fetching data asynchronously -
+
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
@@ -300,7 +316,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
-// // fetching data
+// // Fetching data
 
 // // The Fetch API is a modern web API in JavaScript that provides an interface for making network requests to servers. It offers a more straightforward and flexible alternative to the older XMLHttpRequest object for handling HTTP requests. The Fetch API is based on Promises, which allows you to write asynchronous code in a more elegant and readable way. It provides a global fetch() function that returns a Promise, which resolves to the Response object representing the response to the request. //
 
